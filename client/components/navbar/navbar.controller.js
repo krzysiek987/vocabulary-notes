@@ -5,6 +5,12 @@ angular.module('vocabularyNotesApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    }, {
+        'title': 'Fiszki',
+        'link': '/translation'
+    }, {
+        'title': 'Statystyki',
+        'link': '/quiz'
     }];
 
     $scope.isCollapsed = true;
